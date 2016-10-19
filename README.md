@@ -36,7 +36,7 @@ If you are already running portal server, stop your jetty server. Otherwise, jus
 - Call the REST service.
 	
 ```javascript
-- POST http://localhost:7777/portalserver/services/rest/game/session
+POST http://localhost:7777/portalserver/services/rest/game/session
 {
    "playerId" : "3"
 }	
