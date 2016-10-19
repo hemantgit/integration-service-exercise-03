@@ -35,6 +35,12 @@ If you are already running portal server, stop your jetty server. Otherwise, jus
 - If Portal Server is already running, stop it by pressing *Ctrl+C*. Start Portal Server application by executing `mvn jetty:run` command from the **webapps/portalserver** directory.
 - Call the REST service.
 	
+```javascript
+- POST http://localhost:7777/portalserver/services/rest/game/session
+{
+   "playerId" : "3"
+}	
+```	
 	
 	
 	
